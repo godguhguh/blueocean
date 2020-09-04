@@ -15,13 +15,13 @@ pipeline {
 
   	}
 
-      stage("Stage 2"){
+    stage("Stage 2"){
 
-steps{
-    echo "this is stage 2 running"
-}
+        steps {
+                echo "this is stage 2 running"
+        }
 
-      }
+    }
 
   }
 
