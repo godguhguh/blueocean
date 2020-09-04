@@ -15,6 +15,14 @@ pipeline {
 
   	}
 
+      stage("Stage 2"){
+
+steps{
+    echo "this is stage 2 running"
+}
+
+      }
+
   }
 
 }
